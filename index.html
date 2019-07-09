@@ -1,0 +1,61 @@
+<!--==================================================
+
+Date: 07-09-2019
+Author: Joseph Davis
+Project: design-lab
+
+===================================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>The Design Lab</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="./assets/images/icon-flask-color.png" />
+
+	<!-- Bootstrap v4.3.1 -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+
+<body>
+	<div id="app-container" class="container-fluid">
+		<nav id="app-nav" class="row">
+			<div id="nav-text" class="col-md-8 col-sm-6 col-12">Welcome to the lab!</div>
+
+			<div class="col-md-4 col-sm-5 col-12">
+				<div class="container-fluid">
+					<div class="row justify-content-center">
+						<input type="search" id="search-input" class="col-8" name="search-input" placeholder="Search..." v-model="session.searchText">
+						<button type="button" id="search-button">
+							<img src="./assets/images/icon-search.png" alt="Search Icon" id="search-button-icon">
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="row">
+			<div class="col">
+				{{session.searchText}}
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Vue.js -->
+	<script type="text/javascript" src="./js/vue.min.js"></script>
+
+	<!-- Custom JS -->
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

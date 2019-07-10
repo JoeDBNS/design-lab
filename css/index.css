@@ -114,6 +114,38 @@ body {
 		box-shadow: 0 0 6px #0022ff;
 	}
 
+	/* x0001 */
+		#design-content-x0001.design-content {
+			padding: 50px 10px;
+		}
+		#design-content-x0001 .choice {
+			width: 90%;
+			margin: auto;
+			border: 1px solid rgb(124, 124, 124);
+			border-radius: 20px;
+			box-shadow: 0 0 9px rgb(206, 206, 206);
+			overflow: hidden;
+			cursor: pointer;
+			user-select: none;
+			font-size: 15px;
+			transition: all .15s;
+		}
+		#design-content-x0001 .choice:hover {
+			border-color: rgb(156, 156, 156);
+			box-shadow: none;
+		}
+		#design-content-x0001 .choice-header {
+			padding: 12px 0;
+			border-bottom: 1px solid gray;
+			background: rgb(230, 230, 230);
+		}
+		#design-content-x0001 .choice-content {
+			padding: 10px 14px;
+		}
+		#design-content-x0001 .choice-set, .choice-set:hover {
+			border: 1px solid rgb(0, 189, 79) !important;
+			box-shadow: 0 0 6px rgb(95, 253, 55) !important;
+		}
 
 	/* x0002 */
 		#design-content-x0002.design-content {

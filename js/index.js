@@ -31,5 +31,20 @@ function GetDateValues() {
 
 // OnLoad Run
 window.addEventListener('load', function() {
-	// LoadData();
+	x0001_SetChoiceListener();
 });
+
+
+
+// x0001
+	function x0001_SetChoiceListener() {
+		Array.from(document.querySelectorAll('.choice')).forEach(function(element) {
+			element.addEventListener('click', function() {
+				if (element.classList.toString().indexOf('choice-set') !== -1) {
+					element.classList.remove('choice-set');
+				}
+				else
+					element.classList.add('choice-set');
+			});
+		});
+	}

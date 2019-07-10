@@ -31,13 +31,19 @@ body {
 		}
 	} */
 
+/* App */
+	#app-container {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
 /* Navigation Bar */
 	#app-nav {
 		background-color: #84b6ff;
 		position: fixed;
 		top: 0;
 		width: 100%;
-		padding: 6px 0;
+		padding: 8px 0;
 		z-index: 1;
 	}
 	#nav-text {
@@ -73,9 +79,6 @@ body {
 	}
 
 /* Designs */
-	.design:first-child {
-		margin-top: 90px;
-	}
 	.design {
 		margin-top: 35px;
 		padding: 0 30px;

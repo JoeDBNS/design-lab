@@ -13,7 +13,7 @@
 }
 
 body {
-	background-color: #FFFFFF;
+	background-color: #25262d;
 }
 
 /* Vue.js */
@@ -34,7 +34,11 @@ body {
 /* Navigation Bar */
 	#app-nav {
 		background-color: #84b6ff;
+		position: fixed;
+		top: 0;
+		width: 100%;
 		padding: 6px 0;
+		z-index: 1;
 	}
 	#nav-text {
 		font-size: 23px;
@@ -56,10 +60,7 @@ body {
 		border-radius: 0 6px 6px 0;
 		outline: none;
 	}
-	#search-button:hover {
-		background-color: rgb(238, 238, 238);
-	}
-	#search-button:focus {
+	#search-button:hover, #search-button:focus {
 		background-color: rgb(238, 238, 238);
 	}
 	#search-button:active {
@@ -70,3 +71,51 @@ body {
 		height: 16px;
 		margin: 4px;
 	}
+
+/* Designs */
+	.design:first-child {
+		margin-top: 90px;
+	}
+	.design {
+		margin-top: 35px;
+		padding: 0 30px;
+	}
+	.design-about {
+		min-height: 300px;
+		padding: 2px 30px 2px 6px;
+		color: white;
+		overflow: auto;
+	}
+	.design-about-title {
+		font-size: 22px;
+		color: #aecfff;
+	}
+	.design-about-text {
+		font-size: 14px;
+		margin: 20px 0;
+	}
+	.design-about-tags {
+		font-size: 12px;
+	}
+	.design-about-tags-values {
+		color: darkgrey;
+	}
+	.design-content {
+		background-color: white;
+		min-height: 300px;
+		padding: 0;
+		border: 1px solid rgb(0, 0, 0);
+		border-radius: 16px;
+		box-shadow: 0 0 6px gray inset;
+	}
+	hr {
+		background-color: #E6E6E6;
+		margin: 80px 0;
+		box-shadow: 0 0 6px #0022ff;
+	}
+
+
+	/* x0002 */
+		#design-content-x0002.design-content {
+			padding: 0;
+		}

@@ -275,6 +275,7 @@ body {
 			margin: 10px;
 			background-color: #BBDEBD;
 			box-shadow: none;
+			border: 1px solid gray;
 			border-radius: 6px;
 			text-align: center;
 			transition: all .15s;

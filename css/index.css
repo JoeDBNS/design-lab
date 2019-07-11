@@ -332,4 +332,74 @@ body {
 		#design-content-x0007 .status-marker-failed .status-marker-icon {
 			border: 3px solid rgb(151, 59, 61);
 		}
+
+	/* x0008 */
+		#design-content-x0008.design-content {
+			padding: 80px 0;
+			background-color: #f3f3f3;
+		}
+		#design-content-x0008 .task {
+			width: 120px;
+			height: 130px;
+			margin: 14px;
+			border: 2px solid #e0e0e0;
+			border-radius: 8px;
+			background-color: white;
+			cursor: pointer;
+			user-select: none;
+		}
+		#design-content-x0008 .task-complete {
+			border: 2px solid #5fc885;
+			box-shadow: 0 0 2px #5fc885;
+		}
+		#design-content-x0008 .task-pending {
+			border: 2px solid #5fc885;
+			box-shadow: 0 0 2px #5fc885;
+		}
+		#design-content-x0008 .task-marker-complete {
+			display: none;
+			position: relative;
+			top: -10px;
+			left: -10px;
+			height: 32px;
+			width: 32px;
+			background-color: white;
+			border: 2px solid #5fc885;
+			border-radius: 20px;
+			box-shadow: 0 0 2px #5fc885;
+		}
+		#design-content-x0008 .task-marker-complete img {
+			display: block;
+			width: 18px;
+			height: 18px;
+			margin: 6px auto;
+		}
+		#design-content-x0008 .task-complete .task-marker-complete {
+			display: block;
+		}
+		#design-content-x0008 .task-icon {
+			margin-top: 14px;
+		}
+		#design-content-x0008 .task-complete .task-icon {
+			margin-top: -18px;
+		}
+		#design-content-x0008 .task-icon img {
+			display: block;
+			width: 40px;
+			margin: auto;
+		}
+		#design-content-x0008 .task-label {
+			text-align: center;
+			padding: 6px;
+			font-weight: 500;
+		}
+		#design-content-x0008 .task-progress {
+			text-align: center;
+			color: #e0e0e0;
+		}
+		#design-content-x0008 .task-complete .task-progress {
+			color: #43b16b;
+		}
+		#design-content-x0008 .task-pending .task-progress {
+			color: #6b6b6b;
 		}

@@ -233,3 +233,30 @@ body {
 		#design-content-x0004 .btn-retro:hover {
 			box-shadow: 2px 2px 1px #220837;
 		}
+
+	/* x0005 */
+		#design-content-x0005.design-content {
+			padding: 120px 50px;
+		}
+		#design-content-x0005 .btn-gamey {
+			border-radius: 4px;
+			max-width: 155px;
+			width: 100%;
+			padding: 10px 30px;
+			margin: 10px;
+			background-color: #f2cc21;
+			border: 0;
+			border-top: 2px solid #ffec96;
+			border-bottom: 2px solid #d99f13;
+			color: #1f4c8d;
+			font-size: 13px;
+			font-weight: 700;
+			outline: none;
+			cursor: pointer;
+			user-select: none;
+			text-transform: uppercase;
+			transition: all .1s;
+		}
+		#design-content-x0005 .btn-gamey:hover {
+			transform: scale(1.1);
+		}

@@ -284,3 +284,50 @@ body {
 			left: -4px;
 			box-shadow: 4px 4px 0 #96B297;
 		}
+
+	/* x0007 */
+		#design-content-x0007.design-content {
+			padding: 80px 0;
+		}
+		#design-content-x0007 .status-marker {
+			width: 140px;
+			height: 80px;
+			margin: 10px;
+			border: 2px solid #e0e0e0;
+			border-radius: 12px;
+			color: rgb(134, 134, 134);
+			text-align: center;
+			transition: all .15s;
+		}
+		#design-content-x0007 .status-marker-icon {
+			position: relative;
+			top: -22px;
+			width: 42px;
+			height: 42px;
+			margin: auto;
+			padding: 6px 5px;
+			border: 2px solid #949494;
+			border-radius: 30px;
+			background-color: white;
+		}
+		#design-content-x0007 .status-marker-text {
+			position: relative;
+			top: -17px;
+			font-size: 21px;
+		}
+		#design-content-x0007 .status-marker-passed {
+			color: white;
+			background-color: #7CBB62;
+			border: 2px solid rgb(85, 129, 66);
+		}
+		#design-content-x0007 .status-marker-passed .status-marker-icon {
+			border: 2px solid rgb(85, 129, 66);
+		}
+		#design-content-x0007 .status-marker-failed {
+			color: white;
+			background-color: #DC5A5C;
+			border: 2px solid rgb(151, 59, 61);
+		}
+		#design-content-x0007 .status-marker-failed .status-marker-icon {
+			border: 2px solid rgb(151, 59, 61);
+		}

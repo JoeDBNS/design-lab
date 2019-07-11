@@ -260,3 +260,26 @@ body {
 		#design-content-x0005 .btn-gamey:hover {
 			transform: scale(1.1);
 		}
+
+	/* x0006 */
+		#design-content-x0006.design-content {
+			padding: 60px 0;
+		}
+		#design-content-x0006 .hover-on-hover {
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 150px;
+			height: 150px;
+			margin: 10px;
+			background-color: #BBDEBD;
+			box-shadow: none;
+			border-radius: 6px;
+			text-align: center;
+			transition: all .15s;
+		}
+		#design-content-x0006 .hover-on-hover:hover {
+			top: -4px;
+			left: -4px;
+			box-shadow: 4px 4px 0 #96B297;
+		}

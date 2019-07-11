@@ -393,13 +393,19 @@ body {
 			padding: 6px;
 			font-weight: 500;
 		}
-		#design-content-x0008 .task-progress {
-			text-align: center;
-			color: #e0e0e0;
+		#design-content-x0008 .task-progress progress {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			height: 8px;
+			width: 70%;
+			margin: 6px auto 0 auto;
+			display: block;
 		}
-		#design-content-x0008 .task-complete .task-progress {
-			color: #43b16b;
+		#design-content-x0008 .task-progress progress::-webkit-progress-bar {
+			border-radius: 10px;
 		}
-		#design-content-x0008 .task-pending .task-progress {
-			color: #6b6b6b;
+		#design-content-x0008 .task-progress progress::-webkit-progress-value {
+			background-color: #5FC885;
+			border-radius: 10px;
 		}

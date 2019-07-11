@@ -294,7 +294,7 @@ body {
 			width: 140px;
 			height: 80px;
 			margin: 10px;
-			border: 2px solid #e0e0e0;
+			border: 3px solid #e0e0e0;
 			border-radius: 12px;
 			color: rgb(134, 134, 134);
 			text-align: center;
@@ -307,7 +307,7 @@ body {
 			height: 42px;
 			margin: auto;
 			padding: 6px 5px;
-			border: 2px solid #949494;
+			border: 3px solid #949494;
 			border-radius: 30px;
 			background-color: white;
 		}
@@ -319,16 +319,17 @@ body {
 		#design-content-x0007 .status-marker-passed {
 			color: white;
 			background-color: #7CBB62;
-			border: 2px solid rgb(85, 129, 66);
+			border: 3px solid rgb(85, 129, 66);
 		}
 		#design-content-x0007 .status-marker-passed .status-marker-icon {
-			border: 2px solid rgb(85, 129, 66);
+			border: 3px solid rgb(85, 129, 66);
 		}
 		#design-content-x0007 .status-marker-failed {
 			color: white;
 			background-color: #DC5A5C;
-			border: 2px solid rgb(151, 59, 61);
+			border: 3px solid rgb(151, 59, 61);
 		}
 		#design-content-x0007 .status-marker-failed .status-marker-icon {
-			border: 2px solid rgb(151, 59, 61);
+			border: 3px solid rgb(151, 59, 61);
+		}
 		}

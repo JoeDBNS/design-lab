@@ -212,3 +212,24 @@ body {
 		#design-content-x0003 .social-box-icon-tor {
 			background-color: rgba(126, 71, 152, 0.74);
 		}
+
+	/* x0004 */
+		#design-content-x0004.design-content {
+			padding: 120px 50px;
+		}
+		#design-content-x0004 .btn-retro {
+			background-color: #FBA200;
+			padding: 3px 28px;
+			margin: 10px;
+			border: 2.5px solid rgb(58, 39, 5);
+			border-radius: 8px;
+			box-shadow: 7px 7px 1px #220837;
+			font-size: 17px;
+			font-weight: 500;
+			outline: none;
+			user-select: none;
+			transition: .15s;
+		}
+		#design-content-x0004 .btn-retro:hover {
+			box-shadow: 2px 2px 1px #220837;
+		}

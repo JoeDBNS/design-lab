@@ -236,7 +236,7 @@ body {
 
 	/* x0005 */
 		#design-content-x0005.design-content {
-			padding: 120px 50px;
+			padding: 120px 0;
 		}
 		#design-content-x0005 .btn-gamey {
 			border-radius: 4px;

@@ -466,3 +466,33 @@ body {
 		#design-content-x0009 .text-wavey-letter-everyother:nth-child(odd) {
 			animation-delay: 0.2s;
 		}
+
+	/* x0010 */
+		#design-content-x0010.design-content {
+			padding: 105px 0;
+		}
+		#design-content-x0010 .item {
+			width: 120px;
+			height: 120px;
+			margin: 0 20px;
+			border-radius: 120px;
+			/* background-color: #ECECEC; */
+			cursor: pointer;
+			transition: all .175s;
+		}
+		#design-content-x0010 .item:hover:nth-child(3n+1) {
+			background-color: #5fc885;
+		}
+		#design-content-x0010 .item:hover:nth-child(3n+2) {
+			background-color: #5f69c8;
+		}
+		#design-content-x0010 .item:hover:nth-child(3n+3) {
+			background-color: #c8975f;
+		}
+		#design-content-x0010 .item-inner {
+			width: 106px;
+			height: 106px;
+			margin: 7px;
+			border-radius: 106px;
+			overflow: hidden;
+		}

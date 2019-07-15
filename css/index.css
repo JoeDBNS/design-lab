@@ -410,3 +410,59 @@ body {
 			background-color: #5FC885;
 			border-radius: 10px;
 		}
+
+	/* x0009 */
+		@keyframes v-wave {
+			0% {
+				transform: translateY(0)
+			}
+			25% {
+				transform: translateY(0.12em)
+			}
+			50% {
+				transform: translateY(0)
+			}
+			75% {
+				transform: translateY(-0.12em)
+			}
+			100% {
+				transform: translateY(0)
+			}
+		}
+
+		#design-content-x0009.design-content {
+			padding: 105px 0;
+		}
+		#design-content-x0009 .text-wavey {
+			color: rgb(0, 156, 246);
+			font-weight: 500;
+		}
+		#design-content-x0009 .text-wavey-letter {
+			display: inline-block;
+			animation: 0.5s linear infinite v-wave;
+		}
+		#design-content-x0009 .text-wavey:hover .text-wavey-letter {
+			animation: none;
+		}
+		#design-content-x0009 .text-wavey-letter:nth-child(3n+1) {
+			animation-delay: 0.1s;
+		}
+		#design-content-x0009 .text-wavey-letter:nth-child(3n+2) {
+			animation-delay: 0.25s;
+		}
+		#design-content-x0009 .text-wavey-letter:nth-child(3n+3) {
+			animation-delay: 0.4s;
+		}
+		#design-content-x0009 .text-wavey-letter-everyother {
+			display: inline-block;
+			animation: 0.5s linear infinite v-wave;
+		}
+		#design-content-x0009 .text-wavey:hover .text-wavey-letter-everyother {
+			animation: none;
+		}
+		#design-content-x0009 .text-wavey-letter-everyother:nth-child(even) {
+			animation-delay: 0.1s;
+		}
+		#design-content-x0009 .text-wavey-letter-everyother:nth-child(odd) {
+			animation-delay: 0.2s;
+		}

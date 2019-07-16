@@ -31,7 +31,7 @@ function GetDateValues() {
 
 // OnLoad Run
 window.addEventListener('load', function() {
-	x0001_SetChoiceListener();
+	x0011_InitListener();
 });
 
 
@@ -45,6 +45,19 @@ window.addEventListener('load', function() {
 				}
 				else
 					element.classList.add('choice-set');
+			});
+		});
+	}
+
+// x0011
+	function x0011_InitListener() {
+		Array.from(document.querySelectorAll('#design-content-x0011 .item-display')).forEach(function(element) {
+			element.addEventListener('click', function() {
+				if (element.classList.toString().indexOf('item-display-selected') !== -1) {
+					element.classList.remove('item-display-selected');
+				}
+				else
+					element.classList.add('item-display-selected');
 			});
 		});
 	}

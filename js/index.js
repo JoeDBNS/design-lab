@@ -33,6 +33,7 @@ function GetDateValues() {
 window.addEventListener('load', function() {
 	x0001_InitListener();
 	x0011_InitListener();
+	x0012_InitListener();
 });
 
 
@@ -61,4 +62,21 @@ window.addEventListener('load', function() {
 					element.classList.add('item-display-selected');
 			});
 		});
+	}
+
+// x0012
+	function x0012_InitListener() {
+		Array.from(document.querySelectorAll('#design-content-x0012 .input-field')).forEach(function(element) {
+			element.addEventListener('change', function(event) {
+				x0012_CheckFieldChanged(element);
+			});
+		});
+	}
+	function x0012_CheckFieldChanged(element) {
+		if (element.value === '') {
+			element.parentElement.getElementsByTagName('label')[0].classList.add('input-label-format-null');
+		}
+		else {
+			element.parentElement.getElementsByTagName('label')[0].classList.remove('input-label-format-null');
+		}
 	}

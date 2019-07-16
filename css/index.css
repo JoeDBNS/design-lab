@@ -544,3 +544,104 @@ body {
 		#design-content-x0011 .item-display-selected svg {
 			color: #313131;
 		}
+
+	/* x0012 */
+		#design-content-x0012.design-content {
+			padding: 40px 10px 10px 10px;
+		}
+		#design-content-x0012 .input-label-format {
+			position: absolute;
+			top: -14px;
+			left: 23px;
+			z-index: 1;
+			padding: 0px 8px;
+			margin-bottom: 0;
+			background-color: white;
+			color: #828282;
+			font-size: 16px;
+			border-radius: 10px;
+			user-select: none;
+			transition: all .075s;
+			pointer-events: none;
+		}
+		#design-content-x0012 .input-label-format-null {
+			top: 10px;
+			font-size: 17px;
+		}
+		#design-content-x0012 .input-format:focus ~ .input-label-format-null,
+		#design-content-x0012 .input-format-select:focus ~ .input-label-format-null,
+		#design-content-x0012 .input-format-textarea:focus ~ .input-label-format-null {
+			top: -14px;
+			font-size: 16px;
+		}
+		#design-content-x0012 .input-label-format-required:after {
+			color: red;
+			content: " *";
+		}
+		#design-content-x0012 .input-format, #design-content-x0012 .input-format-select, #design-content-x0012 .input-format-textarea {
+			-webkit-appearance: none;
+			font-size: 19px;
+			min-height: 42px;
+			border-radius: 6px;
+			border: 1px solid #c2c7cb;
+			margin-bottom: 24px;
+			transition: all .2s;
+		}
+		#design-content-x0012 .input-format, #design-content-x0012 .input-format-textarea {
+			padding: 8px 18px;
+		}
+		#design-content-x0012 .input-format-select {
+			padding: 7px 14px;
+		}
+		#design-content-x0012 .input-format-select option {
+			background-color: #eaf4ff;
+		}
+		#design-content-x0012 .input-format-textarea {
+			resize: none;
+		}
+		#design-content-x0012 .input-format:focus, #design-content-x0012 .input-format-select:focus, #design-content-x0012 .input-format-textarea:focus {
+			border: 1px solid #288079;
+			box-shadow: 1px 1px 2px darkgrey;
+			outline: none;
+		}
+		#design-content-x0012 .input-label-format-set {
+			margin-bottom: 4px;
+			padding-top: 8px;
+			font-size: 18px;
+			color: #828282;
+		}
+		@media handheld, only screen and (min-width: 768px) and (max-width: 991px) {
+			#design-content-x0012 .input-label-format-set {
+				padding-top: 0;
+				margin-top: -8px;
+			}
+		}
+		#design-content-x0012 .input-format-radio {
+			opacity: 0;
+		}
+		#design-content-x0012 .input-label-format-radio {
+			padding: 8px 30px;
+			margin: 4px;
+			border: 1px solid #c2c7cb;
+			border-radius: 6px;
+			cursor: pointer;
+			outline: none;
+			user-select: none;
+			transition: all .1s;
+		}
+		#design-content-x0012 .input-format-radio:focus + .input-label-format-radio {
+			border: 1px solid #288079;
+			outline: none;
+		}
+		#design-content-x0012 .input-format-radio:checked + .input-label-format-radio {
+			background-color: #4b6679;
+			color: white;
+			border: 1px solid #288079;
+			box-shadow: 1px 1px 2px darkgrey;
+		}
+		#design-content-x0012 input[type=radio] {
+			width: 0;
+			height: 0;
+			visibility: visible;
+			opacity: 0;
+		}

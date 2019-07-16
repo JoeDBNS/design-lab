@@ -622,6 +622,7 @@ body {
 		#design-content-x0012 .input-label-format-radio {
 			padding: 8px 30px;
 			margin: 4px;
+			background-color: white;
 			border: 1px solid #c2c7cb;
 			border-radius: 6px;
 			cursor: pointer;

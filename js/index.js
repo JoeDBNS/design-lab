@@ -31,14 +31,15 @@ function GetDateValues() {
 
 // OnLoad Run
 window.addEventListener('load', function() {
+	x0001_InitListener();
 	x0011_InitListener();
 });
 
 
 
 // x0001
-	function x0001_SetChoiceListener() {
-		Array.from(document.querySelectorAll('.choice')).forEach(function(element) {
+	function x0001_InitListener() {
+		Array.from(document.querySelectorAll('#design-content-x0001 .choice')).forEach(function(element) {
 			element.addEventListener('click', function() {
 				if (element.classList.toString().indexOf('choice-set') !== -1) {
 					element.classList.remove('choice-set');

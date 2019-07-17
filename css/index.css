@@ -516,6 +516,12 @@ body {
 			padding: 8px;
 			border: 1px solid #D8E7FF;
 		}
+		#design-content-x0011 .item svg {
+			width: 28px;
+			height: 28px;
+			color: gray;
+			transition: .1s all;
+		}
 		#design-content-x0011 .item-display {
 			padding: 16px;
 			border: 1px solid #E7F0FE;
@@ -547,10 +553,28 @@ body {
 			user-select: none;
 			transition: .1s all;
 		}
-		#design-content-x0011 .item svg {
-			width: 28px;
-			height: 28px;
-			color: gray;
+		#design-content-x0011 .item-display-progress {
+			position: relative;
+			top: 31px;
+			left: -4px;
+			height: 0;
+			width: 36px;
+			margin-bottom: -2px;
+			border: 1px solid transparent;
+			border-radius: 4px;
+    		transition: .1s all;
+		}
+		#design-content-x0011 .item-display-progress-fill {
+			height: 100%;
+			background-color: #5fa6ff;
+    		transition: .1s all;
+		}
+		#design-content-x0011 .item-display-selected .item-display-progress {
+			height: 6px;
+			border-color: #2c7aff;
+		}
+		#design-content-x0011 .item-display-selected .item-display-progress ~ svg {
+			margin-top: -16px;
 		}
 		#design-content-x0011 .item-display-selected {
 			background-color: #F3F8FE;

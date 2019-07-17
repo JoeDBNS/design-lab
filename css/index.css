@@ -528,6 +528,25 @@ body {
 			background-color: rgb(220, 233, 253);
 			border: 1px solid #cfe1ff;
 		}
+		#design-content-x0011 .item-display-count {
+			position: relative;
+			top: -20px;
+			right: -30px;
+			background-color: transparent;
+			color: transparent;
+			font-size: 10px;
+			font-weight: 500;
+			line-height: 16px;
+			height: 20px;
+			width: 20px;
+			margin-bottom: -20px;
+			border: 1px solid transparent;
+			border-radius: 20px;
+			box-shadow: 0 0 2px transparent;
+			text-align: center;
+			user-select: none;
+			transition: .1s all;
+		}
 		#design-content-x0011 .item svg {
 			width: 28px;
 			height: 28px;
@@ -538,8 +557,17 @@ body {
 			border: 1px solid #2C7AFF;
 			box-shadow: 0 0 2px #2C7AFF;
 		}
+		#design-content-x0011 .item-display-selected .item-display-count {
+			background-color: #5fa6ff;
+			color: white;
+			border: 1px solid #2C7AFF;
+			box-shadow: 0 0 2px #2C7AFF;
+		}
 		#design-content-x0011 .item-display-selected:hover {
 			background-color: #F3F8FE;
+		}
+		#design-content-x0011 .item-display-selected:hover .item-display-count {
+			border: 1px solid #cfe1ff;
 		}
 		#design-content-x0011 .item-display-selected svg {
 			color: #313131;

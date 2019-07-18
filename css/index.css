@@ -698,3 +698,43 @@ body {
 			visibility: visible;
 			opacity: 0;
 		}
+
+	/* x0013 */
+		#design-content-x0013.design-content {
+			padding: 75px;
+			background-color: #efe8d5;
+		}
+		#design-content-x0013 .item {
+			margin: 14px;
+			cursor: pointer;
+			transition: all .1s;
+		}
+		#design-content-x0013 .item:hover {
+			transform: scale(1.1);
+		}
+		#design-content-x0013 .item-frame {
+			width: 60px;
+			height: 60px;
+			background-color: #fbf5e4;
+			border: 2px solid #576e74;
+			border-radius: 60px;
+		}
+		#design-content-x0013 .item-frame-icon svg {
+			width: 40px;
+			height: 40px;
+			margin: 6px 8px 8px 8px;
+			color: #44575c;
+		}
+		#design-content-x0013 .item-name {
+			position: relative;
+			top: -11px;
+			width: 55px;
+			margin: auto;
+			height: 19px;
+			line-height: 17px;
+			font-size: 13px;
+			color: #fffbef;
+			background-color: #576e74;
+			border-radius: 8px;
+			text-align: center;
+		}

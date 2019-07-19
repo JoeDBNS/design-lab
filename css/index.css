@@ -49,6 +49,12 @@ body {
 	#nav-text {
 		font-size: 23px;
 	}
+	@media only screen and (min-width: 0px) and (max-width: 575px) {
+		#nav-text {
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+	}
 	#search-input {
 		padding: 5px 12px;
     	border: solid #9e9e9e;
@@ -83,11 +89,22 @@ body {
 		margin-top: 35px;
 		padding: 0 30px;
 	}
+	@media only screen and (min-width: 0px) and (max-width: 991px) {
+		.design {
+			padding: 0;
+		}
+	}
 	.design-about {
 		min-height: 260px;
 		padding: 2px 30px 2px 6px;
 		color: white;
 		overflow: auto;
+	}
+	@media only screen and (min-width: 0px) and (max-width: 991px) {
+		.design-about {
+			min-height: 120px;
+			padding: 0 18px 36px 18px;
+		}
 	}
 	.design-about-title {
 		font-size: 22px;
@@ -115,6 +132,11 @@ body {
 		background-color: #E6E6E6;
 		margin: 80px 0;
 		box-shadow: 0 0 6px #0022ff;
+	}
+	@media only screen and (min-width: 0px) and (max-width: 991px) {
+		hr {
+			margin: 50px 0;
+		}
 	}
 
 	/* x0001 */

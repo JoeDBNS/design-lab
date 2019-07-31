@@ -841,3 +841,42 @@ body {
 			color: #535079;
 			text-align: center;
 		}
+
+	/* x0016 */
+		@font-face {
+			font-family: 'VT323';
+			src: url('../assets/x0017/VT323-Regular.ttf');
+		}
+
+		#design-content-x0016.design-content {
+			padding: 50px;
+			background-color: black;
+			font-family: 'VT323', monospace;
+			color: #33ff67;
+		}
+		#design-content-x0016 .text-main {
+			font-size: 50px;
+		}
+		#design-content-x0016 .text-sub {
+			margin-top: -14px;
+			font-size: 17px;
+		}
+		#design-content-x0016 [class^="code-"] {
+			height: 4px;
+			width: 20px;
+		}
+		#design-content-x0016 .code-dot .code-character {
+			background-color: #053311;
+			width: 4px;
+			margin: auto;
+			border-radius: 10px;
+		}
+		#design-content-x0016 .code-line .code-character {
+			background-color: #053311;
+			width: 14px;
+			margin: auto;
+			border-radius: 10px;
+		}
+		#design-content-x0016 .code-space {
+			width: 30px;
+		}

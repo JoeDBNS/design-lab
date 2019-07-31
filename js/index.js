@@ -6,7 +6,7 @@ var MainVue = new Vue({
 			date: GetDateValues(),
 			urlHostname: window.location.hostname,
 			searchText: null
-	},
+		},
 		designCount: GetNextDesignNumber()
 	},
 	methods: {

@@ -809,3 +809,35 @@ body {
 		#design-content-x0014 .calc-buttons .calc-buttons-zero {
 			width: 116px;
 		}
+
+	/* x0015 */
+		#design-content-x0015.design-content {
+			padding: 70px 0;
+		}
+		#design-content-x0015 .display {
+			background: url('../assets/x0015/memphis-colorful.png');
+			width: 70%;
+			border: 2px solid #a2a0c0;
+			border-radius: 10px;
+		}
+		@media handheld, only screen and (min-width: 620px) and (max-width: 777px) {
+			#design-content-x0015 .display {
+				width: 80%;
+			}
+		}
+		@media handheld, only screen and (min-width: 0px) and (max-width: 619px) {
+			#design-content-x0015 .display {
+				width: 90%;
+			}
+		}
+		#design-content-x0015 .display-content {
+			background-color: white;
+			width: 60%;
+			margin: 39px auto;
+			padding: 6px;
+			border: 1px solid #a2a0c0;
+			border-radius: 10px;
+			font-size: 17px;
+			color: #535079;
+			text-align: center;
+		}

@@ -6,7 +6,8 @@ var MainVue = new Vue({
 			date: GetDateValues(),
 			urlHostname: window.location.hostname,
 			searchText: null
-		}
+	},
+		designCount: GetNextDesignNumber()
 	},
 	methods: {
 		GetAmOrPm: function(hour) {
@@ -27,6 +28,13 @@ function GetDateValues() {
 		mmddyyyy: (date.getMonth() + 1).toString() + "-" + (date.getDate()).toString() + "-" + date.getFullYear().toString()
 	};
 	return returnDateObject;
+}
+function GetNextDesignNumber() {
+	x = 1;
+	while (document.querySelectorAll('[data-design-code$="0' + x + '"]').length) {
+		x += 1;
+	}
+	return x;
 }
 
 // OnLoad Run

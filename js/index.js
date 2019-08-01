@@ -42,6 +42,7 @@ window.addEventListener('load', function() {
 	x0001_InitListener();
 	x0011_InitListener();
 	x0012_InitListener();
+	x0017_InitListener();
 });
 
 
@@ -87,4 +88,28 @@ window.addEventListener('load', function() {
 		else {
 			element.parentElement.getElementsByTagName('label')[0].classList.remove('input-label-format-null');
 		}
+	}
+
+// x0017
+	function x0017_InitListener() {
+		Array.from(document.querySelectorAll('#design-content-x0017 .step-text')).forEach(function(element) {
+			element.addEventListener('click', function(event) {
+				if (element.parentElement.classList.length === 1) {
+					element.parentElement.classList.add('step-pending')
+				}
+				else {
+					if (element.parentElement.classList.contains('step-pending')) {
+						element.parentElement.classList.remove('step-pending')
+						element.parentElement.classList.add('step-complete')
+					}
+					else if (element.parentElement.classList.contains('step-complete')) {
+						element.parentElement.classList.remove('step-complete')
+						element.parentElement.classList.add('step-fail')
+					}
+					else if (element.parentElement.classList.contains('step-fail')) {
+						element.parentElement.classList.remove('step-fail')
+					}
+				}
+			});
+		});
 	}

@@ -880,3 +880,106 @@ body {
 		#design-content-x0016 .code-space {
 			width: 30px;
 		}
+
+	/* x0017 */
+		#design-content-x0017.design-content {
+			padding: 110px 20px;
+			background-color: rgb(236, 234, 234);
+		}
+		#design-content-x0017 .step {
+			transition: all .25s;
+		}
+		#design-content-x0017 .step-text {
+			background-color: rgb(235, 235, 235);
+			position: relative;
+			width: 120px;
+			margin: 1px 10px;
+			padding: 2px 10px 3px 10px;
+			border: 1px solid lightgray;
+			box-shadow: 0 0 1px gray inset;
+			border-radius: 6px;
+			text-align: center;
+			font-size: 13px;
+			font-weight: 500;
+			overflow: hidden;
+			cursor: pointer;
+			user-select: none;
+			z-index: 1;
+			transition: all .1s;
+		}
+		#design-content-x0017 .step-icon {
+			width: 27px;
+			margin: auto;
+			z-index: 0;
+		}
+		#design-content-x0017 svg {
+			width: 27px;
+			height: 27px;
+		}
+		#design-content-x0017 .step-icon-pending svg path,
+		#design-content-x0017 .step-icon-pending svg rect {
+			fill: #576E74;
+		}
+		#design-content-x0017 .step-icon div {
+			position: relative;
+			top: 0;
+			height: 0;
+			transition: all .2s;
+		}
+		#design-content-x0017 .step-pending .step-text,
+		#design-content-x0017 .step-complete .step-text,
+		#design-content-x0017 .step-fail .step-text {
+			margin: 0 10px;
+			background-color: white;
+			border: 2px solid lightgray;
+			box-shadow: none;
+		}
+		#design-content-x0017 .step-pending .step-icon-pending,
+		#design-content-x0017 .step-complete .step-icon-complete,
+		#design-content-x0017 .step-fail .step-icon-fail {
+			top: -34px;
+		}
+		@media handheld, only screen and (min-width: 0px) and (max-width: 631px) {
+			#design-content-x0017.design-content {
+				padding: 60px 200px;
+			}
+			#design-content-x0017 .step {
+				width: 100%;
+			}
+			#design-content-x0017 .step-text {
+				margin: 2px 0;
+			}
+			#design-content-x0017 .step-icon {
+				float: left;
+				width: 27px;
+				z-index: 0;
+			}
+			#design-content-x0017 .step-icon div {
+				position: relative;
+				top: 1px;
+				left: 0;
+				height: 0;
+				transition: all .2s;
+			}
+			#design-content-x0017 .step-pending .step-text,
+			#design-content-x0017 .step-complete .step-text,
+			#design-content-x0017 .step-fail .step-text {
+				margin: 1px 0;
+			}
+			#design-content-x0017 .step-pending .step-icon-pending,
+			#design-content-x0017 .step-complete .step-icon-complete,
+			#design-content-x0017 .step-fail .step-icon-fail {
+				top: 1px;
+    			left: 125px;
+			}
+		}
+		@media handheld, only screen and (min-width: 380px) and (max-width: 545px) {
+			#design-content-x0017.design-content {
+				padding: 60px 120px;
+			}
+		}
+		@media handheld, only screen and (min-width: 0px) and (max-width: 379px) {
+			#design-content-x0017.design-content {
+				padding: 60px 70px;
+			}
+		}

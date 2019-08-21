@@ -1079,7 +1079,7 @@ body {
 				;
 			}
 		}
-		@keyframes stage-backlight-transition {
+		@keyframes stage-backlight-chase {
 			from {
 				box-shadow:
 					0 0 0 4px #ffffff,
@@ -1092,7 +1092,7 @@ body {
 				box-shadow: none;
 			}
 		}
-		@keyframes backlight-transition {
+		@keyframes backlight-chase {
 			0% {
 				box-shadow:
 					0 0 0 4px #ffffff,
@@ -1134,6 +1134,97 @@ body {
 				;
 			}
 		}
+		@keyframes stage-backlight-chase-small {
+			from {
+				box-shadow:
+					0 0 0 4px #fff,
+					0 0 0 5px black,
+					-26px 22px 20px -16px red,
+					-34px -5px 20px -16px blue,
+					-21px -29px 20px -16px red,
+					7px -33px 20px -16px blue,
+					28px -20px 20px -16px red,
+					34px 4px 20px -16px blue,
+					23px 25px 20px -16px red,
+					0px 34px 20px -16px blue
+				;
+			}
+			to {
+				box-shadow: none;
+			}
+		}
+		@keyframes backlight-chase-small {
+			0% {
+				box-shadow:
+					0 0 0 4px #fff,
+					0 0 0 5px black,
+					-26px 22px 20px -16px red,
+					-34px -5px 20px -16px blue,
+					-21px -29px 20px -16px red,
+					7px -33px 20px -16px blue,
+					28px -20px 20px -16px red,
+					34px 4px 20px -16px blue,
+					23px 25px 20px -16px red,
+					0px 34px 20px -16px blue
+				;
+			}
+			25% {
+				box-shadow:
+					0 0 0 4px #fff,
+					0 0 0 5px black,
+					0px 34px 20px -16px red,
+					-26px 22px 20px -16px blue,
+					-34px -5px 20px -16px red,
+					-21px -29px 20px -16px blue,
+					7px -33px 20px -16px red,
+					28px -20px 20px -16px blue,
+					34px 4px 20px -16px red,
+					23px 25px 20px -16px blue
+				;
+			}
+			50% {
+				box-shadow:
+					0 0 0 4px #fff,
+					0 0 0 5px black,
+					23px 25px 20px -16px red,
+					0px 34px 20px -16px blue,
+					-26px 22px 20px -16px red,
+					-34px -5px 20px -16px blue,
+					-21px -29px 20px -16px red,
+					7px -33px 20px -16px blue,
+					28px -20px 20px -16px red,
+					34px 4px 20px -16px blue
+				;
+			}
+			75% {
+				box-shadow:
+					0 0 0 4px #fff,
+					0 0 0 5px black,
+					34px 4px 20px -16px red,
+					23px 25px 20px -16px blue,
+					0px 34px 20px -16px red,
+					-26px 22px 20px -16px blue,
+					-34px -5px 20px -16px red,
+					-21px -29px 20px -16px blue,
+					7px -33px 20px -16px red,
+					28px -20px 20px -16px blue
+				;
+			}
+			100% {
+				box-shadow:
+					0 0 0 4px #fff,
+					0 0 0 5px black,
+					28px -20px 20px -16px red,
+					34px 4px 20px -16px blue,
+					23px 25px 20px -16px red,
+					0px 34px 20px -16px blue,
+					-26px 22px 20px -16px red,
+					-34px -5px 20px -16px blue,
+					-21px -29px 20px -16px red,
+					7px -33px 20px -16px blue
+				;
+			}
+		}
 
 		#design-content-x0019.design-content {
 			padding: 90px 20px;
@@ -1166,15 +1257,33 @@ body {
 			;
 			animation: backlight-pulse 2s .5s infinite;
 		}
-		#design-content-x0019 .animate-transition {
-			animation: stage-backlight-transition .5s;
+		#design-content-x0019 .animate-chase {
+			animation: stage-backlight-chase .5s;
 		}
-		#design-content-x0019 .animate-transition:hover {
+		#design-content-x0019 .animate-chase:hover {
 			box-shadow:
 				0 0 0 4px #ffffff,
 				0 0 0 5px black,
 				3px -3px 14px 4px red,
 				-3px 3px 14px 4px blue
 			;
-			animation: backlight-transition 2s .5s infinite;
+			animation: backlight-chase 2s .5s infinite;
+		}
+		#design-content-x0019 .animate-chase-small {
+			animation: stage-backlight-chase-small .5s;
+		}
+		#design-content-x0019 .animate-chase-small:hover {
+			box-shadow:
+				0 0 0 4px #fff,
+				0 0 0 5px black,
+				-26px 22px 20px -16px red,
+				-34px -5px 20px -16px blue,
+				-21px -29px 20px -16px red,
+				7px -33px 20px -16px blue,
+				28px -20px 20px -16px red,
+				34px 4px 20px -16px blue,
+				23px 25px 20px -16px red,
+				0px 34px 20px -16px blue
+			;
+			animation: backlight-chase-small linear 2s .5s infinite;
 		}

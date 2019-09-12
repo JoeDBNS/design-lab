@@ -279,10 +279,12 @@ body {
 			cursor: pointer;
 			user-select: none;
 			text-transform: uppercase;
-			transition: all .1s;
+			transition: all linear .05s;
 		}
-		#design-content-x0005 .btn-gamey:hover {
-			transform: scale(1.05);
+		#design-content-x0005 .btn-gamey:active {
+			-webkit-transform: scale(0.94);
+			transform: scale(0.94);
+			box-shadow: none;
 		}
 
 	/* x0006 */

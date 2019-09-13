@@ -113,3 +113,24 @@ window.addEventListener('load', function() {
 			});
 		});
 	}
+
+// x0021
+	function x0021_AddPageLayoutHighlight() {
+		if (eval(document.getElementById('x0021-style-override'))) {
+			document.getElementById('x0021-style-override').remove();
+		}
+		else {
+			var style = document.createElement('style');
+			style.id = 'x0021-style-override';
+			document.head.appendChild(style);
+			style.sheet.insertRule('* { background-color: rgba(255,0,0,.2); }');
+			style.sheet.insertRule('* * { background-color: rgba(0,255,0,.2); }');
+			style.sheet.insertRule('* * * { background-color: rgba(0,0,255,.2); }');
+			style.sheet.insertRule('* * * * { background-color: rgba(255,0,255,.2); }');
+			style.sheet.insertRule('* * * * * { background-color: rgba(0,255,255,.2); }');
+			style.sheet.insertRule('* * * * * * { background-color: rgba(255,255,0,.2); }');
+			style.sheet.insertRule('* * * * * * * { background-color: rgba(255,0,0,.2); }');
+			style.sheet.insertRule('* * * * * * * * { background-color: rgba(0,255,0,.2); }');
+			style.sheet.insertRule('* * * * * * * * * { background-color: rgba(0,0,255,.2); }');
+		}
+	}

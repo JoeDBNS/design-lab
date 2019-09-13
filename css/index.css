@@ -1289,3 +1289,296 @@ body {
 			;
 			animation: backlight-chase-small linear 2s .5s infinite;
 		}
+
+	/* x0020 */
+		#design-content-x0020.design-content {
+			padding: 110px 20px;
+			background-color: rgb(236, 234, 234);
+		}
+		#design-content-x0020 .buzzer {
+			width: 70px;
+			height: 66px;
+			margin: 0 15px;
+			background-color: white;
+			border: 2px solid black;
+			border-radius: 3px;
+			box-shadow: 0 6px 0 0 black;
+			cursor: pointer;
+		}
+		#design-content-x0020 .buzzer-button {
+			position: relative;
+			top: 4px;
+			width: 34px;
+			height: 44px;
+			margin: auto;
+			background-color: black;
+			border-radius: 20px;
+			transition: .075s all;
+		}
+		#design-content-x0020 .buzzer:active .buzzer-button {
+			top: 16px;
+			height: 32px;
+		}
+		#design-content-x0020 .buzzer-button-top {
+			width: 34px;
+			height: 32px;
+			background-color: #f50000;
+			border: 2px solid black;
+			border-radius: 20px;
+			transition: .075s all;
+		}
+		#design-content-x0020 .buzzer:active .buzzer-button-top {
+			background-color: #d40000;
+		}
+
+	/* x0021 */
+		#design-content-x0021.design-content {
+			padding: 120px 20px;
+		}
+
+	/* x0022 */
+		@keyframes text-flicker {
+			0% {
+				color: #ffb6b6;
+				text-shadow: 0 0 9px red, 0 0 9px red;
+			}
+			10% {
+				color: #7c4d4d;
+				text-shadow: 0 0 9px red;
+			}
+			25% {
+				color: #ffb6b6;
+				text-shadow: 0 0 9px red, 0 0 9px red;
+			}
+			50% {
+				color: black;
+				text-shadow: none;
+			}
+			75% {
+				color: #ffb6b6;
+				text-shadow: 0 0 9px red, 0 0 9px red;
+			}
+			100% {
+				color: #ffb6b6;
+				text-shadow: 0 0 9px red, 0 0 9px red;
+			}
+		}
+		@keyframes text-tilt {
+			0% {
+				transform: rotate(0);
+			}
+			60% {
+				color: #ffb6b6;
+				transform: rotate(2deg);
+			}
+			75% {
+				color: #ffdddd;
+				transform: rotate(4deg);
+			}
+			90% {
+				color: #ffb6b6;
+				transform: rotate(2deg);
+			}
+			100% {
+				transform: rotate(0);
+			}
+		}
+
+		@font-face {
+			font-family: 'halogen_gaslights';
+			src: url('../assets/x0022/halogen_gaslights.otf');
+		}
+		@font-face {
+			font-family: 'neon_burger_squared';
+			src: url('../assets/x0022/neon_bugler_squared.ttf');
+		}
+		@font-face {
+			font-family: 'pacifico_regular';
+			src: url('../assets/x0022/Pacifico-Regular.ttf');
+		}
+		@font-face {
+			font-family: 'fredokaone';
+			src: url('../assets/x0022/FredokaOne-Regular.ttf');
+		}
+		@font-face {
+			font-family: 'orbitron';
+			src: url('../assets/x0022/Orbitron-Regular.ttf');
+		}
+		@font-face {
+			font-family: 'baloo';
+			src: url('../assets/x0022/Baloo-Regular.ttf');
+		}
+		@font-face {
+			font-family: 'boogaloo';
+			src: url('../assets/x0022/Boogaloo-Regular.ttf');
+		}
+		@font-face {
+			font-family: 'staatliches';
+			src: url('../assets/x0022/Staatliches-Regular.ttf');
+		}
+
+		#design-content-x0022.design-content {
+			padding: 50px 20px;
+			background-color: black;
+			font-family: cursive;
+		}
+
+		/* Sign #1 */
+			#design-content-x0022 #sign-1.sign-neon {
+				display: inline-block;
+				padding: 16px 30px;
+				border: 2px solid #d6e4ff;
+				border-radius: 16px;
+				box-shadow: 0 0 12px 2px #0091ff, 0 0 12px 2px #0091ff inset;
+				cursor: pointer;
+				transition: .1s all;
+			}
+			#design-content-x0022 #sign-1 .sign-text-main {
+				font-family: 'halogen_gaslights', cursive;
+				font-size: 50px;
+				color: #a9ffbf;
+				text-shadow: 0 0 10px #33ff67, 0 0 10px #33ff67;
+				transition: .1s all;
+			}
+			#design-content-x0022 #sign-1 .sign-text-sub {
+				font-family: 'neon_burger_squared', cursive;
+				font-size: 30px;
+				color: #ffcc67;
+				text-shadow: 0 0 8px #faac0a, 0 0 8px #faac0a;
+				transition: .1s all;
+			}
+			#design-content-x0022 #sign-1:hover.sign-neon {
+				display: inline-block;
+				padding: 16px 30px;
+				background-color: #067bb4;
+				border: 2px solid #d6e4ff;
+				border-radius: 16px;
+				box-shadow: 0 0 60px 2px #0091ff, 0 0 60px 2px #0091ff inset, 0 0 16px 2px #0091ff, 0 0 16px 2px #0091ff inset;
+			}
+			#design-content-x0022 #sign-1:hover .sign-text-main {
+				font-family: 'halogen_gaslights', cursive;
+				font-size: 50px;
+				color: #00b72f;
+    			text-shadow: 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67;
+			}
+			#design-content-x0022 #sign-1:hover .sign-text-sub {
+				font-family: 'neon_burger_squared', cursive;
+				font-size: 30px;
+				color: #a77000;
+    			text-shadow: 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a;
+			}
+
+		/* Sign #2 */
+			#design-content-x0022 #sign-2.sign-neon {
+				display: inline-block;
+				padding: 16px 30px;
+				border: 2px solid #d6e4ff;
+				border-radius: 16px;
+				box-shadow: 0 0 12px 2px #0091ff, 0 0 12px 2px #0091ff inset;
+				cursor: pointer;
+				transition: .1s all;
+			}
+			#design-content-x0022 #sign-2 .sign-text-main {
+				font-family: 'halogen_gaslights', cursive;
+				font-size: 50px;
+				color: #a9ffbf;
+				text-shadow: 0 0 10px #33ff67, 0 0 10px #33ff67;
+				transition: .1s all;
+			}
+			#design-content-x0022 #sign-2 .sign-text-sub {
+				font-family: 'neon_burger_squared', cursive;
+				font-size: 30px;
+				color: #ffcc67;
+				text-shadow: 0 0 8px #faac0a, 0 0 8px #faac0a;
+				transition: .1s all;
+			}
+			#design-content-x0022 #sign-2:hover.sign-neon {
+				display: inline-block;
+				padding: 16px 30px;
+				background-color: #067bb4;
+				border: 2px solid #d6e4ff;
+				border-radius: 16px;
+				box-shadow: 0 0 60px 2px #0091ff, 0 0 60px 2px #0091ff inset, 0 0 16px 2px #0091ff, 0 0 16px 2px #0091ff inset;
+			}
+			#design-content-x0022 #sign-2:hover .sign-text-main {
+				font-family: 'halogen_gaslights', cursive;
+				font-size: 50px;
+				color: white;
+				text-shadow: 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67, 0 0 10px #33ff67;
+			}
+			#design-content-x0022 #sign-2:hover .sign-text-sub {
+				font-family: 'neon_burger_squared', cursive;
+				font-size: 30px;
+				color: white;
+				text-shadow: 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a, 0 0 8px #faac0a;
+			}
+
+		/* Sign #3 */
+			#design-content-x0022 #sign-3.sign-neon {
+				display: inline-block;
+				padding: 16px 38px;
+				border: 2px solid #d6e4ff;
+				border-radius: 16px;
+				box-shadow: 0 0 12px 2px #0091ff, 0 0 12px 2px #0091ff inset;
+				font-family: 'neon_burger_squared', cursive;
+				cursor: pointer;
+			}
+			#design-content-x0022 #sign-3 .sign-text-main {
+				margin: -36px -10px;
+				font-family: 'halogen_gaslights', cursive;
+				font-size: 50px;
+				color: #ffb6b6;
+				text-shadow: 0 0 9px red, 0 0 9px red;
+			}
+			#design-content-x0022 #sign-3 .sign-text-top, #design-content-x0022 #sign-3 .sign-text-bottom {
+				position: relative;
+				display: inline-block;
+				padding: 2px 10px;
+				background-color: black;
+				box-shadow: 0 0 3px 1px black;
+				font-size: 20px;
+				color: #8dffaa;
+				text-shadow: 0 0 7px #33ff67, 0 0 7px #33ff67;
+			}
+			#design-content-x0022 #sign-3 .sign-text-top {
+				top: -34px;
+			}
+			#design-content-x0022 #sign-3 .sign-text-bottom {
+				bottom: -34px;
+			}
+			#design-content-x0022 #sign-3.sign-neon:hover .sign-text-flicker:nth-child(2) {
+				animation-delay: 0.25s;
+			}
+			#design-content-x0022 #sign-3.sign-neon:hover .sign-text-flicker {
+				animation: 1s linear infinite text-flicker;
+			}
+			#design-content-x0022 #sign-3.sign-neon:hover .sign-text-tilt {
+				display: inline-block;
+				animation: 2s linear infinite text-tilt;
+			}
+
+		/* Sign #4 */
+			#design-content-x0022 #sign-4.sign-neon {
+				display: inline-block;
+				padding: 8px 22px 4px 22px;
+				border: 3px solid #d6e4ff;
+				border-radius: 16px;
+				box-shadow: 0 0 12px 2px #0091ff, 0 0 12px 2px #0091ff inset;
+				cursor: pointer;
+				transition: .25s all;
+			}
+			#design-content-x0022 #sign-4 .sign-text-open {
+				font-family: 'neon_burger_squared', cursive;
+				font-size: 44px;
+				color: #ffa8a8;
+				text-shadow: 0 0 10px red, 0 0 10px red, 0 0 10px red;
+				transition: .25s all;
+			}
+			#design-content-x0022 #sign-4.sign-neon:hover {
+				border: 3px solid #5f5f5f;
+				box-shadow: 0 0 4px 1px #005aa0, 0 0 4px 1px #005aa0 inset;
+			}
+			#design-content-x0022 #sign-4.sign-neon:hover .sign-text-open {
+				color: #7c4d4d;
+				text-shadow: 0 0 4px rgb(180, 0, 0);
+			}

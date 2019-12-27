@@ -403,10 +403,10 @@ body {
 			display: block;
 		}
 		#design-content-x0008 .task-icon {
-			margin-top: 14px;
+			margin-top: 18px;
 		}
 		#design-content-x0008 .task-complete .task-icon {
-			margin-top: -14px;
+			margin-top: -18px;
 		}
 		#design-content-x0008 .task-icon img {
 			display: block;

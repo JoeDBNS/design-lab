@@ -1744,3 +1744,31 @@ body {
 			margin: 0px;
 			line-height: 1rem;
 		}
+
+	/* x0025 */
+		#design-content-x0025.design-content {
+			background-color: black;
+			padding: 28px;
+		}
+		#design-content-x0025 p {
+			font-family: sans-serif;
+			font-size: 76px;
+			line-height: 1.25;
+			font-weight: 900;
+			letter-spacing: -1.5px;
+		}
+		#design-content-x0025 .gradient-1 {
+			background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		#design-content-x0025 .gradient-2 {
+			background: -webkit-linear-gradient(280deg, #01e3e7 0%, #FC00FF 80%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		#design-content-x0025 .gradient-3 {
+			background: -webkit-linear-gradient(270deg, #FF0000 40%, #FFFFFF 60%, #6284FF 80%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}

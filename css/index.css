@@ -1592,6 +1592,8 @@ body {
 		#design-content-x0023 .profile {
 			background-color: #fadc86;
 			border-radius: 10px;
+			box-shadow: 4px 4px 2px #142f76;
+			font-family: sans-serif;
 			overflow: hidden;
 		}
 		#design-content-x0023 .profile-badge {
@@ -1606,15 +1608,14 @@ body {
 			z-index: 3;
 		}
 		#design-content-x0023 .profile-image-background {
-			background-color: #b7258da1;
+			background-color: #142f76b8;
 			width: 150px;
 			height: 150px;
 			position: relative;
 			top: -172px;
 			left: 30px;
-			border: 1px solid #b7258d1a;
 			border-radius: 100px;
-			box-shadow: 0px 0px 32px 10px #c5309a;
+			box-shadow: 0px 0px 18px 6px #142f76;
 			z-index: 1;
 		}
 		#design-content-x0023 .profile-image-background-cut {
@@ -1683,7 +1684,7 @@ body {
 		#design-content-x0023 .profile-actions-set {
 			display: flex;
 			width: 50%;
-			padding: 8px 10px;
+			padding: 10px;
 			justify-content: center;
 			box-shadow: 1px 2px 6px #e3e3e3 inset, -1px -2px 6px #e3e3e3 inset;
 			cursor: pointer;
@@ -1701,3 +1702,45 @@ body {
 			font-weight: 700;
 		}
 
+	/* x0024 */
+		#design-content-x0024.design-content {
+			background-color: black;
+			padding: 28px;
+		}
+		#design-content-x0024 .box {
+			background-color: #161616;
+			padding: 90px 56px;
+			border: 2px solid #252525;
+			border-radius: 4px;
+			color: white;
+			transition: .1s all;
+			cursor: pointer;
+		}
+		#design-content-x0024 .box-green {
+			box-shadow: inset 0px 0px 0px #03ff6c;
+		}
+		#design-content-x0024 .box-green:hover {
+			color: #03ff6c;
+			border: 2px solid #03ff6c;
+			box-shadow: inset 0px 0px 40px #03ff6c;
+		}
+		#design-content-x0024 .box-red {
+			box-shadow: inset 0px 0px 0px #ff0303;
+		}
+		#design-content-x0024 .box-red:hover {
+			color: #ff0303;
+			border: 2px solid #ff0303;
+			box-shadow: inset 0px 0px 40px #ff0303;
+		}
+		#design-content-x0024 .box-blue {
+			box-shadow: inset 0px 0px 0px #1803ff;
+		}
+		#design-content-x0024 .box-blue:hover {
+			color: #1803ff;
+			border: 2px solid #1803ff;
+			box-shadow: inset 0px 0px 40px #1803ff;
+		}
+		#design-content-x0024 p {
+			margin: 0px;
+			line-height: 1rem;
+		}

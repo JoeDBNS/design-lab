@@ -344,7 +344,7 @@ body {
 			width: 42px;
 			height: 42px;
 			margin: auto;
-			padding: 6px 5px;
+			padding: 5px;
 			border: 3px solid #949494;
 			border-radius: 30px;
 			background-color: white;
@@ -362,6 +362,9 @@ body {
 		#design-content-x0007 .status-marker-passed .status-marker-icon {
 			border: 3px solid rgb(85, 129, 66);
 		}
+		#design-content-x0007 .status-marker-passed .status-marker-icon svg {
+			color: rgb(85, 129, 66);
+		}
 		#design-content-x0007 .status-marker-failed {
 			color: white;
 			background-color: #DC5A5C;
@@ -369,6 +372,9 @@ body {
 		}
 		#design-content-x0007 .status-marker-failed .status-marker-icon {
 			border: 3px solid rgb(151, 59, 61);
+		}
+		#design-content-x0007 .status-marker-failed .status-marker-icon svg {
+			color: rgb(151, 59, 61);
 		}
 
 	/* x0008 */

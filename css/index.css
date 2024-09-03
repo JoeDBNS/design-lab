@@ -129,6 +129,18 @@ body {
 		box-shadow: 0 0 6px gray inset;
 		overflow: hidden;
 	}
+	.design-code {
+		background-color: #25262d;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding: 5px 9px;
+		border-color: #25262d;
+		border-style: solid;
+		border-width: 0 0 2px 2px;
+		border-radius: 0 0 0 50%;
+		color: white;
+	}
 	hr {
 		background-color: #E6E6E6;
 		margin: 80px 0;

@@ -1837,3 +1837,27 @@ body {
 			font-family: 'Montserrat', sans-serif;
 			font-weight: 700;
 		}
+
+	/* x0027 */
+		#design-content-x0027.design-content {
+			background-color: #dbdfc1;
+			padding: 64px 20px;
+		}
+		#design-content-x0027 .shelf {
+			border-bottom: 1px solid black;
+			box-shadow: 0px 4px 3px -3px #ababab;
+			overflow: hidden;
+		}
+		#design-content-x0027 .stuff {
+			text-align: center;
+		}
+		#design-content-x0027 img {
+			position: relative;
+			top: 50px;
+			margin: 0 10px;
+			transition: all 100ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+			cursor: pointer;
+		}
+		#design-content-x0027 img:hover {
+			top: 10px;
+		}

@@ -1861,3 +1861,46 @@ body {
 		#design-content-x0027 img:hover {
 			top: 10px;
 		}
+
+	/* x0028 */
+		#design-content-x0028.design-content {
+			background-color: white;
+			padding: 64px 20px;
+		}
+		#design-content-x0028 .input-frame {
+			position: relative;
+		}
+		#design-content-x0028 input,
+		#design-content-x0028 button {
+			position: relative;
+			padding: 12px 30px;
+			margin-right: 10px;
+			border: 2px solid black;
+			border-radius: 12px;
+			line-height: 18px;
+			font-size: 16px;
+			font-weight: bold;
+			outline: none;
+			z-index: 1;
+		}
+		#design-content-x0028 .input-frame-box {
+			width: calc(100% - 10px);
+			height: 100%;
+			position: absolute;
+			top: 4px;
+			left: 4px;
+			border: 2px solid black;
+			border-radius: 12px;
+		}
+		#design-content-x0028 input {
+			background-color: white;
+		}
+		#design-content-x0028 button {
+			background-color: #f9d966;
+		}
+		#design-content-x0028 input:hover + .input-frame-box,
+		#design-content-x0028 input:focus + .input-frame-box,
+		#design-content-x0028 button:hover + .input-frame-box,
+		#design-content-x0028 button:focus + .input-frame-box {
+			background-color: #51c3eb;
+		}

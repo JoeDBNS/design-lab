@@ -2029,3 +2029,21 @@ body {
 		#design-content-x0030 .header-deco-side-right {
 			right: 0;
 		}
+
+	/* x0031 */
+		#design-content-x0031.design-content {
+			background-color: #1d2021;
+			padding: 64px 20px;
+		}
+		#design-content-x0031 .frame {
+            max-width: 250px;
+            padding: 1rem;
+            position: relative;
+            background: linear-gradient(145deg, orange, green);
+            padding: 3px;
+		}
+		#design-content-x0031 .frame-content {
+            background: #1d2021;
+            color: white;
+            padding: 2rem;
+		}
